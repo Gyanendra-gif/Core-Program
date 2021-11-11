@@ -22,6 +22,10 @@ namespace CorePrograms
                         lp.Check();
                         break;
                     case 3:
+                        PowerOfTwo pft = new PowerOfTwo();
+                        pft.Calculation();
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }
