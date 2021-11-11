@@ -46,6 +46,10 @@ namespace CorePrograms
                         ev.Calculation();
                         break;
                     case 9:
+                        VowelConsonent vc = new VowelConsonent();
+                        vc.Check();
+                        break;
+                    case 10:
                         flag = false;
                         break;
                 }
