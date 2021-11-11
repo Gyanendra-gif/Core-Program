@@ -34,6 +34,10 @@ namespace CorePrograms
                         fc.Calculation();
                         break;
                     case 6:
+                        QuotientRemainder qr = new QuotientRemainder();
+                        qr.Calculation();
+                        break;
+                    case 7:
                         flag = false;
                         break;
                 }
