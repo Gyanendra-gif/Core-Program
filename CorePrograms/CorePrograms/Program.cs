@@ -30,6 +30,10 @@ namespace CorePrograms
                         hn.Find();
                         break;
                     case 5:
+                        Factors fc = new Factors();
+                        fc.Calculation();
+                        break;
+                    case 6:
                         flag = false;
                         break;
                 }
