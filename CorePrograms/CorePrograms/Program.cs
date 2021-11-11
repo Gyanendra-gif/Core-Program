@@ -38,6 +38,10 @@ namespace CorePrograms
                         qr.Calculation();
                         break;
                     case 7:
+                        SwapNumber sn = new SwapNumber();
+                        sn.Calculation();
+                        break;
+                    case 8:
                         flag = false;
                         break;
                 }
