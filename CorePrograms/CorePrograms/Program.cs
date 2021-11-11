@@ -50,6 +50,10 @@ namespace CorePrograms
                         vc.Check();
                         break;
                     case 10:
+                        LargestInThree lt = new LargestInThree();
+                        lt.Check();
+                        break;
+                    case 11:
                         flag = false;
                         break;
                 }
