@@ -42,6 +42,10 @@ namespace CorePrograms
                         sn.Calculation();
                         break;
                     case 8:
+                        EvenOdd ev = new EvenOdd();
+                        ev.Calculation();
+                        break;
+                    case 9:
                         flag = false;
                         break;
                 }
