@@ -18,6 +18,10 @@ namespace CorePrograms
                         cf.Play();
                         break;
                     case 2:
+                        LeapYear lp = new LeapYear();
+                        lp.Check();
+                        break;
+                    case 3:
                         flag = false;
                         break;
                 }
