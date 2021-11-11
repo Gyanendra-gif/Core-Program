@@ -26,6 +26,10 @@ namespace CorePrograms
                         pft.Calculation();
                         break;
                     case 4:
+                        HarmonicNumber hn = new HarmonicNumber();
+                        hn.Find();
+                        break;
+                    case 5:
                         flag = false;
                         break;
                 }
